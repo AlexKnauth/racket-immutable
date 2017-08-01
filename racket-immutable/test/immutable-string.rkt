@@ -1,4 +1,4 @@
-#lang racket-immutable
+#lang racket-immutable/base
 
 (require rackunit)
 
