@@ -1,6 +1,8 @@
 #lang racket-immutable/base
 
-(require rackunit)
+(module+ test
+  (require rackunit))
 
-(check-pred immutable? (string-append "a" "b"))
+(module+ test
+  (check-pred immutable? (string-append "a" "b")))
 
